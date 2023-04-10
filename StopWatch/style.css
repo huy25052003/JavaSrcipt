@@ -1,0 +1,46 @@
+
+
+.wrapper {
+width: 800px;
+margin: 30px auto;
+color:white;
+text-align:center;
+border: grey solid 2px;
+position: absolute;
+left: 50%;      
+top: 50%;
+transform: translate(-50%, -50%);
+background-image: linear-gradient(to bottom right, grey, #0000);
+border-radius: 20px;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 2.6em;
+  text-transform: uppercase;
+}
+
+#hours, #minutes, #seconds, #tens{
+  font-size:2em;
+}
+button{
+    background-color: red;
+    padding: 20px;
+    border: 0;
+    border-radius: 15px;
+    color: white;
+    margin-bottom: 50px;
+}
+button:hover{
+  background-color: white;
+  color: red;
+  border: black 3px ;
+}
+
+
+
+
+
+
+
